@@ -5,6 +5,44 @@
 	<link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
 	<script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
 </head>
+<style>
+    div.categoryPageDiv{
+        max-width: 1013px;
+        margin: 10px auto;
+    }
+    div.categorySortBar{
+        background-color: #FAF9F9;
+        margin: 40px 20px 20px 20px;
+        padding: 4px;
+    }
+    table.categorySortBarTable{
+        display: inline-block;
+    }
+    table.categorySortBarTable span.glyphicon{
+        font-size: 10px;
+    }
+    table.categorySortBarTable td{
+        height: 17px;
+        font-size: 12px;
+        border: 1px solid #CCC;
+        padding: 3px;
+    }
+    table.categorySortBarTable td.grayColumn{
+        background-color: #F1EDEC;
+    }
+    table.categorySortBarTable td a{
+        color: #806F66;
+    }
+    table.categorySortBarTable td a:hover{
+        color: #C40000;
+    }
+    table.categorySortBarTable input{
+        border-width: 0px;
+        height: 15px;
+        width: 50px;
+    }
+
+</style>
 <div class="categoryPageDiv">
     <img src="http://how2j.cn/tmall/img/category/72.jpg">
     <div class="categorySortBar">
@@ -12,9 +50,10 @@
             <tbody>
                 <tr>
                     <td class="grayColumn"><a href="#nowhere">综合<span class="glyphicon glyphicon-arrow-down"></span></a></td>
-                    <td class="grayColumn">综合<span class="glyphicon glyphicon-arrow-down"></span></td>
-                    <td class="grayColumn">综合<span class="glyphicon glyphicon-arrow-down"></span></td>
-                    <td class="grayColumn">综合<span class="glyphicon glyphicon-arrow-down"></span></td>
+                    <td>人气<span class="glyphicon glyphicon-arrow-down"></span></td>
+                    <td>新品<span class="glyphicon glyphicon-arrow-down"></span></td>
+                    <td>销量<span class="glyphicon glyphicon-arrow-down"></span></td>
+                    <td>价格<span class="glyphicon glyphicon-resize-vertical"></span></td>
                 </tr>
             </tbody>
         </table>
